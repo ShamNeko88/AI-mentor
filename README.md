@@ -19,6 +19,8 @@
 ## 使い方
 
 1. AI-Mentor フォルダでClaude Codeを起動する。
+   start-claude.bat（Windows）または start-claude.command（Mac）をダブルクリックでも起動できる。
+   Macで初回に動かない場合は、chmod +x start-claude.command を実行する。
 2. そのまま勉強や業務の相談をする。（CLAUDE.md の設定で、自動的にメンターとして応答される）
 3. 区切りのよいところで /mentor-note を実行する。
    → output/notes/<カテゴリ>/yyyymmdd_テーマ.md に保存される。
@@ -50,6 +52,8 @@
 AI-Mentor/
 ├─ CLAUDE.md                          # 共通ルール
 ├─ README.md                          # このファイル
+├─ start-claude.bat                   # Windows用の起動ファイル
+├─ start-claude.command               # Mac用の起動ファイル
 ├─ .claude/
 │   ├─ agents/
 │   │   └─ mentor.md                  # メンターの方針
