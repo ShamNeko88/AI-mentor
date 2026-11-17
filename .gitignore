@@ -6,8 +6,16 @@ settings.local.json
 .env.*
 
 # 学習ノート（業務内容を含む可能性があるため）
-mentor/notes/*
-!mentor/notes/.gitkeep
+output/notes/*
+!output/notes/.gitkeep
+
+# クイズ記録（ノートの内容を含むため）
+output/quiz/*
+!output/quiz/.gitkeep
+
+# 振り返り（ノートの内容を含むため）
+output/review/*
+!output/review/.gitkeep
 
 # OSが作るファイル
 Thumbs.db
