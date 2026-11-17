@@ -1,0 +1,14 @@
+# Claude Codeのローカル設定
+settings.local.json
+
+# 秘密情報
+.env
+.env.*
+
+# 学習ノート（業務内容を含む可能性があるため）
+mentor/notes/*
+!mentor/notes/.gitkeep
+
+# OSが作るファイル
+Thumbs.db
+.DS_Store
